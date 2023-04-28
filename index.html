@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+		<title></title>
+		<script src="https://unpkg.com/read-excel-file@4.x/bundle/read-excel-file.min.js"></script>
+    <script
+      src="https://kit.fontawesome.com/f4d00d66d2.js"
+      crossorigin="anonymous"
+		></script>
+		<script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.15.3/xlsx.full.min.js"
+    ></script>
+    <link rel="stylesheet" href="./src/styles2.css" />
+  </head>
+  <body>
+		<div class="Nav">
+			<input id="Buscador" class="Buscador"></input>
+			<div class='Checkout'></div>
+			<div class="Buttons">
+          <label for="fileUpload7"><i class="fa-regular fa-file gold"></i></label>
+          <input style="display: none;visibility: hidden" type="file" id="fileUpload7" multiple ></input>
+          <i class="fa-solid fa-upload gold" type="button" id="uploadExcel"></i>
+          <i id="market" class="fa-solid fa-shop gold"></i>
+			</div>
+		</div>
+    <div class="cajaprincipal">
+      <div id="cajaizquierda" class="cajaizquierda activeizq">
+        <ul id="productos">
+          <li>
+            <div class="maria">
+              <div class="center">
+                <div class="texto">
+                <p><div class="wait"></div></p>
+                <p><div class="wait2"></div></p>
+                </div>
+              </div>
+              <div class="controls">
+                  <i ope="minus" class="fa-solid fa-minus  wait3"></i>
+                  <i class="fa-solid   wait3">0</i>
+                  <i ope="sum" class="fa-solid fa-plus  wait3"></i>
+              </div>
+            </div>
+          </li>
+          <li> 
+	    <div class="maria">
+              <div class="center">
+                <div class="texto">
+                <p><div class="wait"></div></p>
+                <p><div class="wait2"></div></p>
+                </div>
+              </div>
+              <div class="controls">
+
+              </div>
+            </div>
+
+          </li>
+      </div>
+      <div id="cajaderecha" class="cajaderecha disableder">
+        <div class="center column">
+          <table id="tbl_exporttable_to_xls" border="1">
+            <thead>
+              <th>Codigo</th>
+              <th class="item">Item</th>
+              <th>Descripcion</th>
+              <th class="uni">Uni</th>
+              <th>Cantidad</th>
+              <th></th>
+            </thead>
+	    <tbody id="tbl_items">
+            </tbody>
+          </table>
+	  <div class="buttons2">
+          <button class="delsave" id="click">Guardar</button>
+	  <button class="delsave" id="buttondel">Borrar</button>
+	  </div>
+        </div>
+      </div>
+      </ul>
+    </div>
+
+    <script src="src/index.js"></script>
+  </body>
+</html>

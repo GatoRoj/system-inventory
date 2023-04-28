@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;500&display=swap");
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Raleway";
+  background-color: #fff;
+}
+.cajaprincipal {
+  display: flex;
+}
+
+.cajaizquierda {
+  width: 75%;
+  background-color: #fff;
+  flex-direction: column;
+  height: 100vh;
+}
+.cajaizquierda li {
+  list-style: none;
+  display: flex;
+}
+
+.maria {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul p {
+  font-size: 10px;
+  text-align: left;
+}
+
+.boton {
+  padding: 19px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 19px;
+}
+
+.boton button {
+  background-color: #a491d2;
+  color: #fff;
+  padding: 1em 3em;
+}
+
+.cajaizquierda img {
+  border-radius: 50%;
+  width: 160px;
+}
+
+.cajaderecha {
+  background-color: #fff;
+  width: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.cajaderecha img {
+  width: 100%;
+  max-width: 200px;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+}
+.centar {
+  width: 300px;
+}
+
+ul li {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #bec1bb;
+  border-right: 1px solid #bec1bb;
+  padding: 11px 26px 11px 26px;
+  background-color: #fff;
+}
+
+.texto p {
+  padding-left: 7px;
+  padding-bottom: 3px;
+  color: #000;
+  font-size: 14px;
+}
+.texto p:nth-child(2) {
+  color: rgb(95, 95, 95);
+  font-size: 10px;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.column h1 {
+  font-size: 45px;
+  font-stretch: 10px;
+  word-spacing: 12px;
+  letter-spacing: -1px;
+}
+
+.Buscador {
+  border: 1px solid #000;
+  border-radius: 30px;
+  width: 100%;
+  font-size: 25px;
+  padding: 1.5rem;
+}
+
+.Nav {
+  display: flex;
+  height: 60px;
+  justify-content: space-between;
+  margin: 1.5rem;
+}
+
+.Buttons {
+  width: 100px;
+  border: 1px solid red;
+  margin-left: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+}
+
+.count {
+  font-size: 20px;
+  font-style: normal;
+}

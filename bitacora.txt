@@ -1,0 +1,6 @@
+instalar dependencias
+
+solo en necesario conservar el package.json y el codigo index.html src/
+
+npm run build
+
