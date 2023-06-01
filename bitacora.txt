@@ -4,3 +4,15 @@ solo en necesario conservar el package.json y el codigo index.html src/
 
 npm run build
 
+subir la pagina
+npx gh-pages -d dist 
+
+
+
+-Eliminar el stylo2
+
+-Mejorar el css
+
+-Crear paletas de stylo con atributos en css
+
+-refactorizar el codigo
