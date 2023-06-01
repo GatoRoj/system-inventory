@@ -1,0 +1,364 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;500&display=swap");
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Raleway";
+  background-color: #eaebf1;
+}
+.cajaprincipal {
+  display: flex;
+}
+.gold {
+  color: #fdd674;
+  margin-left: 8px;
+  cursor: pointer;
+}
+
+.icons {
+  cursor: pointer;
+}
+
+.cajaizquierda {
+  width: 75%;
+
+  flex-direction: column;
+  height: 100vh;
+}
+.cajaizquierda li {
+  list-style: none;
+  display: flex;
+}
+
+.maria {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul p {
+  font-size: 10px;
+  text-align: left;
+}
+
+.boton {
+  padding: 19px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 19px;
+}
+
+.boton button {
+  background-color: #a491d2;
+  color: #fff;
+  padding: 1em 3em;
+}
+
+.cajaizquierda img {
+  border-radius: 50%;
+  width: 160px;
+}
+
+.cajaderecha {
+  background-color: #fff;
+  width: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.cajaderecha img {
+  width: 100%;
+  max-width: 200px;
+}
+
+.icons {
+  margin-left: 7px;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+}
+.centar {
+  width: 300px;
+}
+
+ul li {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #bec1bb;
+  border-right: 1px solid #bec1bb;
+  padding: 11px 26px 11px 26px;
+  background-color: #fff;
+  border-radius: 30px;
+  margin: 0.5rem;
+}
+
+.texto p {
+  padding-bottom: 3px;
+  color: #000;
+  font-size: 14px;
+}
+
+.controls {
+  min-width: 85px;
+}
+
+.texto p:nth-child(2) {
+  color: rgb(95, 95, 95);
+  font-size: 10px;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.column h1 {
+  font-size: 45px;
+  font-stretch: 10px;
+  word-spacing: 12px;
+  letter-spacing: -1px;
+}
+
+.Buscador {
+  border: 1px solid #000;
+  border-radius: 30px;
+  width: 100%;
+  font-size: 18px;
+  padding-left: 1rem;
+}
+
+.disableizq {
+  width: 15%;
+  transition-duration: 1s;
+  overflow: hidden;
+}
+.disableizq .controls {
+  visibility: hidden;
+}
+.disableizq .texto {
+  display: none;
+}
+.disableLLizq ul li {
+  margin-left: 5px;
+}
+.activeizq {
+  transition-duration: 1s;
+  width: 100%;
+}
+.disableder {
+  width: 0%;
+  transition-duration: 1s;
+  overflow: hidden;
+}
+
+.activeder {
+  transition-duration: 1s;
+  width: 100%;
+  overflow: hidden;
+}
+
+.Nav {
+  display: flex;
+  height: 83px;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #1d202b;
+  border-radius: 50px;
+  margin: 0.5rem;
+}
+
+.delsave {
+  color: #fdd674;
+  padding: 1rem 2rem 1rem 2rem;
+  border-right: 2px solid #fdd674;
+  border-bottom: 2px solid #fdd674;
+  background-color: black;
+  margin-top: 1rem;
+  border-radius: 30px;
+  font-size: 20px;
+  cursor: pointer;
+  margin-left:0.2em;
+  margin-right:0.2em;
+}
+
+.Buttons {
+  width: 100px;
+  border: 0px solid red;
+  margin-left: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+}
+
+.count {
+  font-size: 20px;
+  font-style: normal;
+}
+
+.wait {
+  background-color: rgb(104, 104, 104, 0.3);
+  width: 180px;
+  height: 19px;
+  border-radius: 6px;
+}
+.wait2 {
+  background-color: rgb(104, 104, 104, 0.1);
+  width: 120px;
+  height: 14px;
+  border-radius: 4px;
+}
+
+.wait3 {
+  background-color: rgb(104, 104, 104, 0.2);
+  border-radius: 50%;
+  padding: 0.5rem;
+  color: transparent;
+  height: 32px;
+  margin-left: 7px;
+  width: 30px;
+}
+
+table {
+  border-collapse: collapse;
+  font-family: Tahoma, Geneva, sans-serif;
+}
+table td {
+  padding: 15px;
+}
+table thead td {
+  background-color: #54585d;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 13px;
+  border: 1px solid #54585d;
+}
+table tbody td {
+  color: #636363;
+  border: 1px solid #dddfe1;
+}
+table tbody tr {
+  background-color: #f9fafb;
+}
+table tbody tr:nth-child(odd) {
+  background-color: #ffffff;
+}
+
+.uni {
+  visibility: hidden;
+  padding: 0px;
+  width: 0px;
+  height: 0px;
+  margin: 0px;
+}
+.item {
+  visibility: hidden;
+  padding: 0px;
+  width: 0px;
+  height: 0px;
+  margin: 0px;
+}
+
+
+@media( max-width: 1023px ){
+
+.Buscador{
+  border: 1px solid #000;
+  border-radius: 81px;
+  width: 100%;
+  font-size: 76px;
+  padding-left: 2rem;
+}
+.Nav{
+  display: flex;
+  height: 230px;
+  justify-content: space-between;
+  padding: 52px;
+  background-color: #1d202b;
+  border-radius: 159px;
+  margin: 0.5rem;
+}
+.Buttons{
+  width: 100px;
+  border: 0px solid red;
+  margin-left: 6.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 76px;
+  margin-right: 4rem;
+}
+.maria{
+  margin:1em;
+}
+
+.texto p {
+  padding-bottom: 3px;
+  font-size: 37px;
+}
+.texto p:nth-child(2) {
+  font-size: 28px;
+}
+ul li{
+  border-radius: 76px;
+}
+
+.controls{
+  font-size:37px;
+  min-width:156px;
+}
+.count{
+  font-size:37px;
+}
+.fa-upload{
+  margin-left:16px;
+}
+.delsave{
+  font-size:76px;
+  border-radius: 88px;
+  padding: 2rem 4rem;
+  border-right: 4px solid #fdd674;
+  border-bottom: 4px solid #fdd674;
+  margin-left: 0.2em;
+  margin-right: 0.2em;
+
+}
+.buttons2{
+  min-width:805px;
+}
+table thead td {
+  font-size: 30px;
+}
+tr{
+  font-size: 37px;
+}
+
+.wait{
+  width: 325px;
+  height: 38px;
+  border-radius: 19px;
+}
+.wait2{
+  height: 26px;
+  border-radius: 51px;
+}
+.wait3{
+  height: 56px;
+  margin-left: 7px;
+  width: 56px;
+}
+
+}
+
+
+/*# sourceMappingURL=/styles2.8239d764.css.map */
