@@ -101,7 +101,8 @@ upload.addEventListener("click", function () {
           //=A;adiendo los datos al array stok=
           rowObject.map((el) => {
             //console.log(el);
-            if (el.__EMPTY != null && el.__EMPTY != "CODIGO") {
+            if (el.__EMPTY != null && el.__EMPTY != "CODIGO" && el.__EMPTY.length < 10) {
+	      console.log(el.__EMPTY)
               stok.push(el);
               createItem(el);
             }
